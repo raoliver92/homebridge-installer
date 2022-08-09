@@ -9,7 +9,7 @@ Beyond that, all you need to know to get this running is how to copy/paste.
 Next, copy the line below and paste into the Firewalla shell and then hit Return. 
 
  ```
- curl -s -L -C- https://github.com/raoliver92/homebridge-installer/blob/main/homebridge_docker_install.sh | cat <(cat <(bash))
+ curl -s -L -C- https://raw.githubusercontent.com/raoliver92/homebridge-installer/main/homebridge_docker_install.sh | cat <(cat <(bash))
 ```
 
 **Standard disclaimer:** I can not be responsible for any issues that may result. Nothing in the script should in any way, affect firewalla as a router or comprimise security. Happy to answer questions though if I can. :)
